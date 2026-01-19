@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Voucher To Cash - Boesackjnr</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2970a3",
+                        "background-light": "#ffffff",
+                        "background-dark": "#121416",
+                        "card-dark": "#1d2225",
+                        "border-dark": "#3f4950"
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        .glass-nav {
+            backdrop-filter: blur(12px);
+            background-color: rgba(18, 20, 22, 0.8);
+        }
+        .mockup-shadow {
+            box-shadow: 0 0 50px rgba(41, 112, 163, 0.2);
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        body {
+            background-color: #121416;
+            font-family: 'Manrope', sans-serif;
+            color: white;
+            overflow-x: hidden;
+        }
+        .feature-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(41, 112, 163, 0.5);
+        }
+    </style>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="selection:bg-primary/30">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 right-0 z-50 border-b border-border-dark/30 glass-nav">
+        <div class="max-w-7xl mx-auto flex items-center justify-between p-4 md:px-8">
+            <div class="flex items-center gap-2">
+                <div class="bg-primary p-1.5 rounded-lg flex items-center justify-center">
+                    <span class="material-symbols-outlined text-white text-2xl">currency_exchange</span>
+                </div>
+                <h2 class="text-white text-xl font-extrabold tracking-tight">Voucher To Cash</h2>
+            </div>
+            <div class="flex items-center gap-6">
+                <a class="hidden md:block text-[#a1adb5] hover:text-white text-sm font-semibold transition-colors" href="https://boesackjnr.github.io/" target="_blank">boesackjnr</a>
+                <button class="bg-primary hover:bg-primary/90 text-white text-sm font-bold py-2 px-5 rounded-lg transition-all active:scale-95 shadow-lg shadow-primary/20">
+                    <a href="https://boesackjnr.github.io/Voucher-To-Cash-App" target="_blank">Launch App</a>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative overflow-hidden px-4 py-12 md:py-24 max-w-7xl mx-auto mt-20">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="flex flex-col gap-8">
+                    <div class="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-3 py-1 w-fit">
+                        <span class="flex h-2 w-2 rounded-full bg-primary animate-pulse"></span>
+                        <span class="text-primary text-xs font-bold tracking-wider uppercase">Available in South Africa</span>
+                    </div>
+                    <h1 class="text-white text-5xl md:text-7xl font-extrabold leading-[1.1] tracking-[-0.04em]">
+                        Turn your Vouchers & Airtime into <span class="text-primary">Real Cash</span>
+                    </h1>
+                    <p class="text-[#a1adb5] text-lg md:text-xl leading-relaxed max-w-lg">
+                        Instant conversion. Secure transfers. Zero hidden fees. The most reliable way to liquidate your digital value to Cash.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="bg-primary hover:bg-primary/90 text-white text-lg font-bold py-4 px-8 rounded-xl transition-all shadow-lg shadow-primary/20 flex items-center justify-center gap-2">
+                            <span class="material-symbols-outlined">Launch</span>
+                            Launch App
+                        </button>
+                        <button class="bg-white/5 border border-white/10 hover:bg-white/10 text-white text-lg font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-2">
+                            See Rates
+                        </button>
+                    </div>
+                    <div class="flex items-center gap-4 pt-4">
+                        <div class="flex -space-x-3">
+                            <img src="/components/headshots_imgs/headshot-002.jpg" class="w-10 h-10 rounded-full border-2 border-background-dark object-cover" alt="User" />
+                            <img src="/components/headshots_imgs/headshot-001.jpg" class="w-10 h-10 rounded-full border-2 border-background-dark object-cover" alt="User" />
+                            <img src="/components/headshots_imgs/headshot-003.jpg" class="w-10 h-10 rounded-full border-2 border-background-dark object-cover" alt="User" />
+                        </div>
+                        <p class="text-sm text-[#a1adb5] font-medium">Joined by <span class="text-white font-bold">50k+</span> active users</p>
+                    </div>
+                </div>
+                
+                <div class="relative flex justify-center">
+                    <!-- Phone Mockup -->
+                    <div class="relative w-[280px] h-[580px] bg-black rounded-[3rem] border-[8px] border-[#222] overflow-hidden mockup-shadow z-10">
+                        <div class="flex flex-col h-full bg-[#121416]">
+                            <div class="h-6 w-full flex justify-center items-end">
+                                <div class="w-20 h-4 bg-black rounded-b-xl"></div>
+                            </div>
+                            <div class="p-6 flex flex-col gap-6">
+                                <div class="flex justify-between items-center">
+                                    <div class="text-xs text-[#a1adb5]">Total Balance</div>
+                                    <span class="material-symbols-outlined text-sm text-[#a1adb5]">notifications</span>
+                                </div>
+                                <div class="text-3xl font-bold">R 2,450.00</div>
+                                <div class="grid grid-cols-2 gap-3">
+                                    <div class="bg-primary p-3 rounded-xl flex flex-col gap-2">
+                                        <span class="material-symbols-outlined text-white">add_circle</span>
+                                        <span class="text-xs font-bold text-white">Deposit</span>
+                                    </div>
+                                    <div class="bg-white/10 p-3 rounded-xl flex flex-col gap-2">
+                                        <span class="material-symbols-outlined text-white">account_balance_wallet</span>
+                                        <span class="text-xs font-bold text-white">Withdraw</span>
+                                    </div>
+                                </div>
+                                <div class="bg-white/5 rounded-xl p-4 border border-white/5">
+                                    <div class="flex justify-between items-center mb-4">
+                                        <h3 class="text-sm font-bold">Recent</h3>
+                                        <span class="text-[10px] text-primary font-bold">View All</span>
+                                    </div>
+                                    <div class="space-y-4">
+                                        <!-- Transaction 1 -->
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center gap-3">
+                                                <div class="w-8 h-8 rounded-lg bg-green-500/20 flex items-center justify-center">
+                                                    <span class="material-symbols-outlined text-green-500 text-sm">arrow_downward</span>
+                                                </div>
+                                                <div>
+                                                    <div class="text-xs font-bold text-white">1Voucher</div>
+                                                    <div class="text-[10px] text-[#a1adb5]">Today, 14:20</div>
+                                                </div>
+                                            </div>
+                                            <div class="text-xs font-bold text-green-500">+R 500</div>
+                                        </div>
+                                        <!-- Transaction 2 -->
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center gap-3">
+                                                <div class="w-8 h-8 rounded-lg bg-primary/20 flex items-center justify-center">
+                                                    <span class="material-symbols-outlined text-primary text-sm">payments</span>
+                                                </div>
+                                                <div>
+                                                    <div class="text-xs font-bold text-white">Bank Transfer</div>
+                                                    <div class="text-[10px] text-[#a1adb5]">Yesterday</div>
+                                                </div>
+                                            </div>
+                                            <div class="text-xs font-bold text-white">-R 1,200</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Decorative Blurs -->
+                    <div class="absolute -top-10 -right-10 w-32 h-32 bg-primary/20 blur-[60px] rounded-full"></div>
+                    <div class="absolute -bottom-10 -left-10 w-40 h-40 bg-primary/10 blur-[80px] rounded-full"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Providers Section -->
+        <section class="py-12 bg-white/5 border-y border-white/5 overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4">
+                <p class="text-center text-[#a1adb5] text-xs font-bold tracking-[0.2em] uppercase mb-8">Trusted by Top Providers</p>
+                <div class="flex items-center gap-12 md:gap-24 overflow-x-auto no-scrollbar justify-center opacity-40 grayscale contrast-125">
+                    <img class="h-8 md:h-10 shrink-0" src="/components/Marquee_imgs/1Voucher.png" alt="provider" />
+                    <img class="h-8 md:h-10 shrink-0" src="/components/Marquee_imgs/CellC.png" alt="provider" />
+                    <img class="h-8 md:h-10 shrink-0" src="/components/Marquee_imgs/Mtn.png" alt="provider" />
+                    <img class="h-8 md:h-10 shrink-0" src="/components/Marquee_imgs/Flash.png" alt="provider" />
+                    <img class="h-8 md:h-10 shrink-0" src="/components/Marquee_imgs/Telkom.png" alt="provider" />
+                    <img class="h-8 md:h-10 shrink-0" src="/components/Marquee_imgs/Vodacom.png" alt="provider" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="how-it-works" class="px-4 py-20 max-w-7xl mx-auto">
+            <div class="flex flex-col gap-12 items-center">
+                <div class="text-center flex flex-col gap-4 max-w-2xl">
+                    <h2 class="text-3xl md:text-5xl font-black text-white">Three Simple Steps</h2>
+                    <p class="text-[#a1adb5] text-lg">Converting your digital assets shouldn't be complicated. We've simplified the process down to minutes.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
+                    <!-- Step 1 -->
+                    <div class="feature-card group relative bg-card-dark border border-border-dark p-8 rounded-2xl transition-all duration-300">
+                        <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-6 transition-all group-hover:scale-110">
+                            <span class="material-symbols-outlined text-3xl">upload_file</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-white">1. Upload</h3>
+                        <p class="text-[#a1adb5] leading-relaxed text-sm">Scan your voucher barcode or enter the airtime pin manually. Our system verifies details instantly.</p>
+                    </div>
+                    <!-- Step 2 -->
+                    <div class="feature-card group relative bg-card-dark border border-border-dark p-8 rounded-2xl transition-all duration-300">
+                        <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-6 transition-all group-hover:scale-110">
+                            <span class="material-symbols-outlined text-3xl">swap_horiz</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-white">2. Convert</h3>
+                        <p class="text-[#a1adb5] leading-relaxed text-sm">Accept the instant valuation based on real-time market rates. The value is added to your secure wallet immediately.</p>
+                    </div>
+                    <!-- Step 3 -->
+                    <div class="feature-card group relative bg-card-dark border border-border-dark p-8 rounded-2xl transition-all duration-300">
+                        <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-6 transition-all group-hover:scale-110">
+                            <span class="material-symbols-outlined text-3xl">account_balance</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-white">3. Withdraw</h3>
+                        <p class="text-[#a1adb5] leading-relaxed text-sm">Transfer your cash directly to your linked bank account or mobile money wallet. Transfers are processed 24/7.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="px-4 py-16 md:py-32">
+            <div class="max-w-5xl mx-auto bg-primary rounded-[2.5rem] p-8 md:p-16 relative overflow-hidden text-center">
+                <div class="relative z-10 flex flex-col items-center gap-8">
+                    <h2 class="text-3xl md:text-6xl font-black tracking-tight text-white max-w-2xl">Ready to turn that airtime into real money?</h2>
+                    <p class="text-white/80 text-lg md:text-xl max-w-lg">Join 50,000+ South Africans getting more value from their digital vouchers today.</p>
+                    <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+                        <button class="bg-white text-primary text-lg font-bold py-4 px-10 rounded-xl hover:bg-white/90 transition-all flex items-center justify-center gap-2">
+                            <span class="material-symbols-outlined">IOS</span>
+                            App Store
+                        </button>
+                        <button class="bg-black text-white text-lg font-bold py-4 px-10 rounded-xl hover:bg-black/80 transition-all flex items-center justify-center gap-2">
+                            <span class="material-symbols-outlined">android</span>
+                            Play Store
+                        </button>
+                    </div>
+                </div>
+                <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
+                <div class="absolute bottom-0 left-0 w-64 h-64 bg-black/10 rounded-full translate-y-1/2 -translate-x-1/2 blur-3xl"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="px-4 py-12 border-t border-border-dark/50">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+            <div class="col-span-1 md:col-span-2 flex flex-col gap-6">
+                <div class="flex items-center gap-2">
+                    <div class="bg-primary p-1.5 rounded-lg flex items-center justify-center">
+                        <span class="material-symbols-outlined text-white text-xl">currency_exchange</span>
+                    </div>
+                    <h2 class="text-white text-xl font-extrabold tracking-tight">VoucherCash</h2>
+                </div>
+                <p class="text-[#a1adb5] text-sm leading-relaxed max-w-sm">
+                    Financial technology for the modern economy. Converting digital value into liquid cash, securely and instantly across South Africa.
+                </p>
+                <div class="flex gap-4">
+                    <a class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary/20 transition-colors" href="#">
+                        <span class="material-symbols-outlined text-sm text-[#a1adb5]">public</span>
+                    </a>
+                    <a class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary/20 transition-colors" href="#">
+                        <span class="material-symbols-outlined text-sm text-[#a1adb5]">alternate_email</span>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-6">Product</h4>
+                <ul class="flex flex-col gap-4 text-sm text-[#a1adb5]">
+                    <li><a class="hover:text-primary transition-colors" href="#">How it works</a></li>
+                    <li><a class="hover:text-primary transition-colors" href="#">Rates & Fees</a></li>
+                    <li><a class="hover:text-primary transition-colors" href="#">Security</a></li>
+                    <li><a class="hover:text-primary transition-colors" href="#">Support</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-6">Legal</h4>
+                <ul class="flex flex-col gap-4 text-sm text-[#a1adb5]">
+                    <li><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a></li>
+                    <li><a class="hover:text-primary transition-colors" href="#">Terms of Service</a></li>
+                    <li><a class="hover:text-primary transition-colors" href="#">AML Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto mt-12 pt-8 border-t border-border-dark/30 flex flex-col md:flex-row justify-between gap-4 text-[10px] uppercase tracking-widest font-bold text-[#556068]">
+            <p>© 2026 VOUCHER TO CASH.</p>
+            <p>PROTOTYPE APP</p>
+        </div>
+    </footer>
+
+    <script type="module">
+        // Basic interactivity
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('VoucherCash Landing Page Loaded');
+            
+            // Handle smooth scroll for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
