@@ -2,7 +2,7 @@
 # Voucher To Cash Landing Page 🇿🇦
 link to Voucher To Cash https://boesackjnr.github.io/Voucher-To-Cash-App/
 
-A high-performance, dark-mode landing page for **Voucher To Cash**, a South African fintech solution that allows users to liquidate digital vouchers (like 1Voucher, OTT, etc.) and mobile airtime into real bankable cash instantly.
+A dark-mode landing page for **Voucher To Cash**, a South African fintech solution that allows users to liquidate digital vouchers (like 1Voucher, OTT, etc.) and mobile airtime into real bankable cash instantly.
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
